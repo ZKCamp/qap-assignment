@@ -1,4 +1,4 @@
-# R1CS Assignment
+# QAP Assignment
 
 Calculate QAP step by step for the given equation. Fill in the values in this markdown to complete the assignment
 
