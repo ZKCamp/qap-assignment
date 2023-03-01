@@ -10,7 +10,7 @@ $$ x^2-x-42 == 0 $$
 
 ## Symbols
 
-symbols = [~one, x, ?, ?, ?, ?]
+symbols = [~one, x, out1, out2, out3, ~out]
 
 ## Solution Vector
 
