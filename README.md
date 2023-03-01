@@ -2,7 +2,7 @@
 
 Calculate QAP step by step for the given equation. Fill in the values in this markdown to complete the assignment
 
-$$ x^2-x-42 = 0 $$
+$$ x^2-x-42 == 0 $$
 
 ## Gates
 
@@ -10,68 +10,80 @@ $$ x^2-x-42 = 0 $$
 
 ## Symbols
 
-symbols = [-, -, -, -, -, -]
+symbols = [~one, x, ?, ?, ?, ?]
+
+## Solution Vector
+
+$\vec{s}$ = [1, 7, ?, ?, ?]
 
 ## R1CS
 
 ### Gate #1
 
-$$ \vec{a} = [-, -, -, -, -, -] $$
+$$ \vec{a} = [?, ?, ?, ?, ?, ?] $$
 
-$$ \vec{b} = [-, -, -, -, -, -] $$
+$$ \vec{b} = [?, ?, ?, ?, ?, ?] $$
 
-$$ \vec{c} = [-, -, -, -, -, -] $$
+$$ \vec{c} = [?, ?, ?, ?, ?, ?] $$
+
+Verify $\vec{a}.\vec{s} * $\vec{b}.\vec{s} - $\vec{c}.\vec{s} == 0$
 
 ### Gate #2
 
-$$ \vec{a} = [-, -, -, -, -, -] $$
+$$ \vec{a} = [?, ?, ?, ?, ?, ?] $$
 
-$$ \vec{b} = [-, -, -, -, -, -] $$
+$$ \vec{b} = [?, ?, ?, ?, ?, ?] $$
 
-$$ \vec{c} = [-, -, -, -, -, -] $$
+$$ \vec{c} = [?, ?, ?, ?, ?, ?] $$
+
+Verify $\vec{a}.\vec{s} * $\vec{b}.\vec{s} - $\vec{c}.\vec{s} == 0$
 
 ### Gate #3
 
-$$ \vec{a} = [-, -, -, -, -, -] $$
+$$ \vec{a} = [?, ?, ?, ?, ?, ?] $$
 
-$$ \vec{b} = [-, -, -, -, -, -] $$
+$$ \vec{b} = [?, ?, ?, ?, ?, ?] $$
 
-$$ \vec{c} = [-, -, -, -, -, -] $$
+$$ \vec{c} = [?, ?, ?, ?, ?, ?] $$
+
+Verify $\vec{a}.\vec{s} * $\vec{b}.\vec{s} - $\vec{c}.\vec{s} == 0$
 
 ### Gate #4
 
-$$ \vec{a} = [-, -, -, -, -, -] $$
+$$ \vec{a} = [?, ?, ?, ?, ?, ?] $$
 
-$$ \vec{b} = [-, -, -, -, -, -] $$
+$$ \vec{b} = [?, ?, ?, ?, ?, ?] $$
 
-$$ \vec{c} = [-, -, -, -, -, -] $$
+$$ \vec{c} = [?, ?, ?, ?, ?, ?] $$
+
+Verify $\vec{a}.\vec{s} * $\vec{b}.\vec{s} - $\vec{c}.\vec{s} == 0$
 
 ## Constraint Matrices
 
 ```math
 A = \begin{bmatrix}
-- & - & - & - & - & - \\
-- & - & - & - & - & - \\
-- & - & - & - & - & - \\
-- & - & - & - & - & - \\
+? & ? & ? & ? & ? & ? \\
+? & ? & ? & ? & ? & ? \\
+? & ? & ? & ? & ? & ? \\
+? & ? & ? & ? & ? & ? \\
 \end{bmatrix}
 ```
 
 ```math
 B = \begin{bmatrix}
-- & - & - & - & - & - \\
-- & - & - & - & - & - \\
-- & - & - & - & - & - \\
-- & - & - & - & - & - \\
+? & ? & ? & ? & ? & ? \\
+? & ? & ? & ? & ? & ? \\
+? & ? & ? & ? & ? & ? \\
+? & ? & ? & ? & ? & ? \\
 \end{bmatrix}
 ```
 
 ```math
 C = \begin{bmatrix}
-- & - & - & - & - & - \\
-- & - & - & - & - & - \\
-- & - & - & - & - & - \\
-- & - & - & - & - & - \\
+? & ? & ? & ? & ? & ? \\
+? & ? & ? & ? & ? & ? \\
+? & ? & ? & ? & ? & ? \\
+? & ? & ? & ? & ? & ? \\
 \end{bmatrix}
 ```
 
@@ -79,38 +91,44 @@ C = \begin{bmatrix}
 
 ```math
 A(x) = \begin{bmatrix}
-c_1x^3 + c_2x^2 + c_3x + c_4
+?x^3 + ?x^2 + ?x + ?
 \\
-c_1x^3 + c_2x^2 + c_3x + c_4
+?x^3 + ?x^2 + ?x + ?
 \\ 
-c_1x^3 + c_2x^2 + c_3x + c_4 \\ 
-c_1x^3 + c_2x^2 + c_3x + c_4 \\ 
-c_1x^3 + c_2x^2 + c_3x + c_4 \\
+?x^3 + ?x^2 + ?x + ? \\ 
+?x^3 + ?x^2 + ?x + ? \\ 
+?x^3 + ?x^2 + ?x + ? \\
 \end{bmatrix}
 ```
 
-
-
 ```math
 B(x) = \begin{bmatrix}
-c_1x^3 + c_2x^2 + c_3x + c_4
+?x^3 + ?x^2 + ?x + ?
 \\
-c_1x^3 + c_2x^2 + c_3x + c_4
+?x^3 + ?x^2 + ?x + ?
 \\ 
-c_1x^3 + c_2x^2 + c_3x + c_4 \\ 
-c_1x^3 + c_2x^2 + c_3x + c_4 \\ 
-c_1x^3 + c_2x^2 + c_3x + c_4 \\
+?x^3 + ?x^2 + ?x + ? \\ 
+?x^3 + ?x^2 + ?x + ? \\ 
+?x^3 + ?x^2 + ?x + ? \\
 \end{bmatrix}
 ```
 
 ```math
 C(x) = \begin{bmatrix}
-c_1x^3 + c_2x^2 + c_3x + c_4
+?x^3 + ?x^2 + ?x + ?
 \\
-c_1x^3 + c_2x^2 + c_3x + c_4
+?x^3 + ?x^2 + ?x + ?
 \\ 
-c_1x^3 + c_2x^2 + c_3x + c_4 \\ 
-c_1x^3 + c_2x^2 + c_3x + c_4 \\ 
-c_1x^3 + c_2x^2 + c_3x + c_4 \\
+?x^3 + ?x^2 + ?x + ? \\ 
+?x^3 + ?x^2 + ?x + ? \\ 
+?x^3 + ?x^2 + ?x + ? \\
 \end{bmatrix}
 ```
+
+$$A(x).\vec{s} = ?$$
+$$B(x).\vec{s} = ?$$
+$$C(x).\vec{s} = ?$$
+
+$$A(x).\vec{s} * B(x).\vec{s} - C(x).\vec{s} = ?$$
+
+Since the above polynomial is equal to $H(x).Z(x)$ it should have roots at x = 1, 2, 3, 4. Verify the same by pasting the polynomial [here](https://www.wolframalpha.com/).
