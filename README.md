@@ -132,3 +132,23 @@ $$C(x).\vec{s} = ?$$
 $$A(x).\vec{s} * B(x).\vec{s} - C(x).\vec{s} = ?$$
 
 Since the above polynomial is equal to $H(x).Z(x)$ it should have roots at x = 1, 2, 3, 4. Verify the same by pasting the polynomial [here](https://www.wolframalpha.com/).
+
+## Evaluation
+
+-   Clone this repo.
+
+    ```
+    git clone CLONE_URL
+    ```
+
+-   Create a new branch with your name. You can use the following command
+
+    ```
+    git checkout -b my-name
+    ```
+
+-  Fill in the values in this file with your solution
+
+-   Create a pull request from your branch to the main branch of the repo
+
+-   Since this assignment is manually evaluated we will provide feedback on your solution in form of pull request comments
