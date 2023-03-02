@@ -2,7 +2,9 @@
 
 Calculate QAP step by step for the given equation. Fill in the values in this markdown to complete the assignment
 
-$$ x^2-x-42 == 0 $$
+$$
+x^2-x-42 == 0
+$$
 
 ## Gates
 
@@ -26,7 +28,7 @@ $$ \vec{b} = [?, ?, ?, ?, ?, ?] $$
 
 $$ \vec{c} = [?, ?, ?, ?, ?, ?] $$
 
-Verify $\vec{a}.\vec{s} * $\vec{b}.\vec{s} - $\vec{c}.\vec{s} == 0$
+Verify $$\vec{a}.\vec{s} * \vec{b}.\vec{s} - \vec{c}.\vec{s} == 0$$
 
 ### Gate #2
 
@@ -36,7 +38,7 @@ $$ \vec{b} = [?, ?, ?, ?, ?, ?] $$
 
 $$ \vec{c} = [?, ?, ?, ?, ?, ?] $$
 
-Verify $\vec{a}.\vec{s} * $\vec{b}.\vec{s} - $\vec{c}.\vec{s} == 0$
+Verify $$\vec{a}.\vec{s} * \vec{b}.\vec{s} - \vec{c}.\vec{s} == 0$$
 
 ### Gate #3
 
@@ -46,7 +48,7 @@ $$ \vec{b} = [?, ?, ?, ?, ?, ?] $$
 
 $$ \vec{c} = [?, ?, ?, ?, ?, ?] $$
 
-Verify $\vec{a}.\vec{s} * $\vec{b}.\vec{s} - $\vec{c}.\vec{s} == 0$
+Verify $$\vec{a}.\vec{s} * \vec{b}.\vec{s} - \vec{c}.\vec{s} == 0$$
 
 ### Gate #4
 
@@ -56,40 +58,40 @@ $$ \vec{b} = [?, ?, ?, ?, ?, ?] $$
 
 $$ \vec{c} = [?, ?, ?, ?, ?, ?] $$
 
-Verify $\vec{a}.\vec{s} * $\vec{b}.\vec{s} - $\vec{c}.\vec{s} == 0$
+Verify $$\vec{a}.\vec{s} * \vec{b}.\vec{s} - \vec{c}.\vec{s} == 0$$
 
 ## Constraint Matrices
 
-```math
+$$
 A = \begin{bmatrix}
 ? & ? & ? & ? & ? & ? \\
 ? & ? & ? & ? & ? & ? \\
 ? & ? & ? & ? & ? & ? \\
 ? & ? & ? & ? & ? & ? \\
 \end{bmatrix}
-```
+$$
 
-```math
+$$
 B = \begin{bmatrix}
 ? & ? & ? & ? & ? & ? \\
 ? & ? & ? & ? & ? & ? \\
 ? & ? & ? & ? & ? & ? \\
 ? & ? & ? & ? & ? & ? \\
 \end{bmatrix}
-```
+$$
 
-```math
+$$
 C = \begin{bmatrix}
 ? & ? & ? & ? & ? & ? \\
 ? & ? & ? & ? & ? & ? \\
 ? & ? & ? & ? & ? & ? \\
 ? & ? & ? & ? & ? & ? \\
 \end{bmatrix}
-```
+$$
 
 ## QAP
 
-```math
+$$
 A(x) = \begin{bmatrix}
 ?x^3 + ?x^2 + ?x + ?
 \\
@@ -99,9 +101,9 @@ A(x) = \begin{bmatrix}
 ?x^3 + ?x^2 + ?x + ? \\ 
 ?x^3 + ?x^2 + ?x + ? \\
 \end{bmatrix}
-```
+$$
 
-```math
+$$
 B(x) = \begin{bmatrix}
 ?x^3 + ?x^2 + ?x + ?
 \\
@@ -111,9 +113,9 @@ B(x) = \begin{bmatrix}
 ?x^3 + ?x^2 + ?x + ? \\ 
 ?x^3 + ?x^2 + ?x + ? \\
 \end{bmatrix}
-```
+$$
 
-```math
+$$
 C(x) = \begin{bmatrix}
 ?x^3 + ?x^2 + ?x + ?
 \\
@@ -123,7 +125,7 @@ C(x) = \begin{bmatrix}
 ?x^3 + ?x^2 + ?x + ? \\ 
 ?x^3 + ?x^2 + ?x + ? \\
 \end{bmatrix}
-```
+$$
 
 $$A(x).\vec{s} = ?$$
 $$B(x).\vec{s} = ?$$
